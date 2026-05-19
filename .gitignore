@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environments
+venv/
+.env/
+
+# GIS / GeoPandas
+*.aux.xml
+*.shp.xml
+*.dbf.xml
+*.lock
+
+# Streamlit
+.streamlit/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
