@@ -1,11 +1,10 @@
-# 🌊 EMODnet Habitat Map Validation Tool (Python / Streamlit)
+# EMODnet Habitat Map Validation Tool (Python / Streamlit)
 
-Interactive web application for validating marine habitat shapefiles according to EMODnet Data Exchange Formats (DEF).  
-This tool is a Python (Streamlit + GeoPandas) version of a traditional R/Shiny validation workflow.
+Interactive web application for validating marine habitat shapefiles according to EMODnet Data Exchange Formats (DEF). This tool is a Python (Streamlit + GeoPandas) version of a traditional R/Shiny validation workflow.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Upload ZIP shapefiles (ESRI format)
 - Automatic DEF detection (OH / TH / HD / SA)
@@ -17,7 +16,7 @@ This tool is a Python (Streamlit + GeoPandas) version of a traditional R/Shiny v
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 habitat-map-validation/  
 ├── habitat_map_validation_master.py  
@@ -28,7 +27,7 @@ habitat-map-validation/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ### Create environment (recommended)
 
@@ -45,7 +44,7 @@ conda install geopandas plotly streamlit -c conda-forge
 
 ---
 
-## ▶️ Run the application
+## Run the application
 
 streamlit run habitat_map_validation_master.py  
 
@@ -55,7 +54,7 @@ run_app.bat
 
 ---
 
-## 📦 Input data
+## Input data
 
 Upload a ZIP file containing a shapefile:
 - .shp  
@@ -65,7 +64,7 @@ Upload a ZIP file containing a shapefile:
 
 ---
 
-## 🧠 Supported DEF types
+## Supported DEF types
 
 OH = Original Habitat DEF  
 TH = Translated EUNIS Habitat DEF  
@@ -74,7 +73,7 @@ SA = Study Area DEF
 
 ---
 
-## ✔ Validation checks
+## Validation checks
 
 Geometry:
 - Invalid polygons detection
@@ -90,7 +89,7 @@ Data:
 
 ---
 
-## 🗺 Outputs
+## Outputs
 
 - Interactive map
 - Validation tables
@@ -99,7 +98,7 @@ Data:
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 - Not optimized for very large datasets
 - Overlap check is O(n²)
@@ -107,6 +106,6 @@ Data:
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Python version of EMODnet-style R/Shiny validation workflow.
